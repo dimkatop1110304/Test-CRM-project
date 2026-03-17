@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/mlechnyj_put_zvezdnoe_nebo_galaktika_119519_1920x1080.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  margin: 0;
+}
+.container {
+    margin: 60px;
+    padding: 40px;
+    background-color: rgb(199 173 173 / 20%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    color: #fcfcfc;
+    line-height: 1.6;
+}
+
+.MainText h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.MainText p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.Case1{
+    display: flex;
+}
+
+.CaseText1{
+    flex: 1.5;
+}
+
+.Case1 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.CaseImg1{
+    flex: 0.5;
+    max-width: 100%; 
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/L_height.webp");
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
