@@ -4,6 +4,7 @@ body {
 }
 
 .background {
+  overflow-y: scroll;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,7 +17,9 @@ body {
   margin: 0;
 }
 .container {
-    margin: 60px;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 40px;
     background-color: rgb(199 173 173 / 20%);
     border-radius: 15px;
@@ -38,15 +41,16 @@ body {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
-.Case1{
+.Case{
     display: flex;
+    padding-top: 1%;
 }
 
-.CaseText1{
+.CaseText{
     flex: 1.5;
 }
 
-.Case1 h2{
+.Case h2{
     font-size: 25px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -60,6 +64,30 @@ body {
     background-size: cover;
     background-position: center;
     background-image: url("../img/L_height.webp");
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.CaseImg2{
+    flex: 0.5;
+    max-width: 100%; 
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/images1.jpeg");
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.CaseImg3{
+    flex: 0.5;
+    max-width: 100%; 
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/Kotelnaya_2.jpg");
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
